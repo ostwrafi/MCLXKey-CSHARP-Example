@@ -1,0 +1,45 @@
+# Ignore Visual Studio temporary files, build results, and user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# NuGet packages
+*.nupkg
+packages/
+# Uncomment if you have tasks that create the project's packages directory in the root
+# !packages/build/
+
+# Windows image file caches
+Thumbs.db
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# OS generated files
+.DS_Store
+*.swp
+
+# Logs
+*.log
+
+# Rider
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+
+# Visual Studio folder
+.vs/
