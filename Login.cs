@@ -36,7 +36,8 @@ namespace KeyAuth
           
         }
 
-
+       //login button click event
+        // This method is called when the login button is clicked
         private async void loginBtn_Click_1(object sender, EventArgs e)
         {
             string username = usernameField.Text;
@@ -57,7 +58,7 @@ namespace KeyAuth
                 MessageBox.Show("Login failed: " + result.error);
             }
         }
-
+       // Returns the current user's unique Windows HWID (SID)
         public static string GetHWID()
         {
             return System.Security.Principal.WindowsIdentity.GetCurrent().User.Value;
@@ -73,7 +74,7 @@ namespace KeyAuth
         {
            
         }
-
+       // Application close and minimize buttons
         private void closeBtn_Click(object sender, EventArgs e)
         {
             Environment.Exit(0);

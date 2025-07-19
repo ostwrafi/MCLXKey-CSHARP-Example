@@ -27,7 +27,8 @@ namespace KeyAuth
         {
            
         }
-
+      // application close and minimize buttons
+        // This method is called when the close button is clicked
         private async void closeBtn_Click(object sender, EventArgs e)
         {
             
