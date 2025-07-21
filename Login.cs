@@ -48,14 +48,14 @@ namespace KeyAuth
             // Check the result
             if (result.success)
             {
-                Main main = new Main();
+                Main main = new Main(result.user);
                 main.Show();
                 this.Hide();
-                MessageBox.Show("Login successful!");
+                MessageBox.Show("Login successful!" + result.message);
             }
             else
             {
-                MessageBox.Show("Login failed: " + result.error);
+                MessageBox.Show("" + result.message);
             }
         }
        // Returns the current user's unique Windows HWID (SID)

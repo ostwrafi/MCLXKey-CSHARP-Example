@@ -20,6 +20,7 @@ namespace KeyAuth
             this.closeBtn = new System.Windows.Forms.Button();
             this.minBtn = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
+            this.xd = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -103,6 +104,19 @@ namespace KeyAuth
             this.label3.Size = new System.Drawing.Size(456, 47);
             this.label3.TabIndex = 93;
             this.label3.Text = "Simple Official C# Example ";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // xd
+            // 
+            this.xd.AutoSize = true;
+            this.xd.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(100)))), ((int)(((byte)(242)))));
+            this.xd.Location = new System.Drawing.Point(151, 134);
+            this.xd.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.xd.Name = "xd";
+            this.xd.Size = new System.Drawing.Size(198, 19);
+            this.xd.TabIndex = 94;
+            this.xd.Text = "MCLXKey Official C# Example";
             // 
             // Main
             // 
@@ -111,6 +125,7 @@ namespace KeyAuth
             this.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(24)))), ((int)(((byte)(32)))));
             this.ClientSize = new System.Drawing.Size(730, 401);
+            this.Controls.Add(this.xd);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.minBtn);
             this.Controls.Add(this.closeBtn);
@@ -140,5 +155,6 @@ namespace KeyAuth
         private System.Windows.Forms.Button closeBtn;
         private System.Windows.Forms.Button minBtn;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label xd;
     }
 }

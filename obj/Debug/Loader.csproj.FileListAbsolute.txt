@@ -1,0 +1,12 @@
+F:\Git Project\KeyAuth-CSHARP-Example\Form\obj\Debug\Loader.csproj.AssemblyReference.cache
+F:\Git Project\KeyAuth-CSHARP-Example\Form\obj\Debug\KeyAuth.Main.resources
+F:\Git Project\KeyAuth-CSHARP-Example\Form\obj\Debug\KeyAuth.Login.resources
+F:\Git Project\KeyAuth-CSHARP-Example\Form\obj\Debug\Loader.csproj.GenerateResource.cache
+F:\Git Project\KeyAuth-CSHARP-Example\Form\obj\Debug\Loader.csproj.CoreCompileInputs.cache
+F:\Git Project\KeyAuth-CSHARP-Example\Form\bin\Debug\Loader.exe.config
+F:\Git Project\KeyAuth-CSHARP-Example\Form\bin\Debug\Loader.exe
+F:\Git Project\KeyAuth-CSHARP-Example\Form\bin\Debug\Newtonsoft.Json.dll
+F:\Git Project\KeyAuth-CSHARP-Example\Form\bin\Debug\Newtonsoft.Json.xml
+F:\Git Project\KeyAuth-CSHARP-Example\Form\obj\Debug\Loader.csproj.Up2Date
+F:\Git Project\KeyAuth-CSHARP-Example\Form\obj\Debug\Loader.exe
+F:\Git Project\KeyAuth-CSHARP-Example\Form\obj\Debug\Loader.exe.config

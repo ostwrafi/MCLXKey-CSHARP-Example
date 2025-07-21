@@ -52,16 +52,15 @@ namespace MCLXKey
             string hwid)
         {
             try
-            {   
+            {
                 var request = new AuthRequest
                 {
                     name = name,
                     pass = pass,
                     hwid = hwid,
-                    projectsecretid = "your_project_secret_id_here", // Replace with your actual project secret ID
-                    userid = "your_user_id_here", // Replace with your actual user ID
-                    // Optional: Use a special token if required by your API
-                    special_token = "your_special_token_here", // Replace with your actual special token if needed
+                    projectsecretid = "737a0a50fb7a4451ec5f476e3e571113",
+                    userid = "687bb018225ff98025e361d1",
+                    special_token = "ad8985011eef8f0f1470b8a76af85cecd9d439859961d77808b32673e09325ae",
                     type = "login"
                 };
 
